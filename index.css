@@ -1,0 +1,133 @@
+.box_wrapper{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: #333333;
+    margin: 100px 50px;
+}
+h1{
+    color: #333333;
+    text-align: center;
+}
+
+/* box1 */
+.box1{
+    animation-name: box1-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+}
+@keyframes box1-anime{
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px)
+    }
+}
+/* box2 */
+.box2{
+    animation-name: box2-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+}
+@keyframes box2-anime{
+    0% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(10px)
+    }
+}
+/* box3 */
+.box3{
+    animation-name: box3-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+}
+@keyframes box3-anime{
+    0% {
+        transform: translate(-10px,-10px);
+    }
+    100% {
+        transform: translate(10px,10px)
+    }
+}
+/* box4 */
+.box4{
+    animation-name: box4-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+}
+@keyframes box4-anime{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* box5 */
+.box5{
+    animation-name: box5-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+}
+@keyframes box5-anime{
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+/* box6 */
+.box6{
+    animation-name: box6-anime;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 3s;
+}
+@keyframes box6-anime {
+    0% { transform:translateY(0) }
+    5% { transform:translateY(0) }
+    10% { transform:translateY(0) }
+    20% { transform:translateY(-15px) }
+    25% { transform:translateY(0) }
+    30% { transform:translateY(-15px) }
+    50% { transform:translateY(0) }
+    100% { transform:translateY(0) }
+  }
+/* box7 */
+.box7{
+    animation-name: box7-anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-duration: 1s;
+  }
+  
+  @keyframes box7-anime {
+    0% {transform: scale(.5, 1.5) translate(0, 0);}
+    50% {transform: scale(1.5, .5) translate(0, 0);}
+    100% {transform: scale(.5, 1.5) translate(0, 0);}
+  }
+/* box8 */
+/* box9 */
